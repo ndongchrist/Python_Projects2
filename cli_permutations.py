@@ -20,9 +20,10 @@ if __name__ == '__main__':
     print("Enter the length of permutation: ")
     lenght = int(input())  
     
-    descision = int(input("1: With repetition \t 2: Without repetition"))
-    while(descision != 1 or descision != 2):
-        descision = int(input("1: With repetition \t 2: Without repetition"))
+    descision = int(input("1: With repetition \t 2: Without repetition\n"))
+    while(descision != 1 and descision != 2):
+        print("Invalid input")
+        descision = int(input("1: With repetition \t 2: Without repetition\n"))
         
     if(descision == 1):
         permutations_with(lenght, list)
