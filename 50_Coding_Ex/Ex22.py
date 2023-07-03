@@ -1,3 +1,3 @@
-arr = [1, 2, 3] #adding comments
-arr1 = arr.reverse() #reversing the array
-print(arr1) #display it
+arr = [1, 2, 3, 4, 5]
+reversed_arr = list(reversed(arr))
+print(reversed_arr)  # Output: [5, 4, 3, 2, 1]
